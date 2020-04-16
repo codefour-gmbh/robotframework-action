@@ -1,0 +1,8 @@
+name: 'Robot Framework'
+description: 'Run tests within the robot framework'
+branding:
+  icon: "terminal"
+  color: "purple"
+runs:
+  using: 'docker'
+  image: docker://codefour/robot-docker:latest
